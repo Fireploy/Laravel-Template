@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="{{ asset('app.js') }}"></script>
+    <script src="{{ secureasset('app.js') }}" defer></script>
     <link rel="stylesheet" href="{{ asset('index.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
   </head>
@@ -17,14 +17,14 @@
         <div class="sun"></div>
         <!-- cohete -->
         <div class="iconContainer">
-          <img style="width: 70%; height: 70%" class="icon" src="{{ asset('rocket.svg') }}" />
+          <img style="width: 70%; height: 70%" class="icon" src="{{ secure_asset('rocket.svg') }}" defer/>
         </div>
         <!-- otros iconos -->
         <div>
-          <img class="iconElement" src="{{ asset('braces-asterisk.svg') }}" />
-          <img class="iconElement" src="{{ asset('database-fill.svg') }}" />
-          <img class="iconElement" src="{{ asset('palette-fill.svg') }}" />
-          <img class="iconElement" src="{{ asset('person-vcard-fill.svg') }}" />
+          <img class="iconElement" src="{{ secure_asset('braces-asterisk.svg') }}" defer/>
+          <img class="iconElement" src="{{ secure_asset('database-fill.svg') }}" defer/>
+          <img class="iconElement" src="{{ secure_asset('palette-fill.svg') }}" defer/>
+          <img class="iconElement" src="{{ secure_asset('person-vcard-fill.svg') }}" defer/>
         </div>
         <div>
            <svg class="containerLines" height="100%" width="100%">
