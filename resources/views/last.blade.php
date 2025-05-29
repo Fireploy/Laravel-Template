@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="{{ asset('app.js') }}"></script>
     <link rel="stylesheet" href="{{ asset('index.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
   </head>
@@ -43,9 +42,9 @@
     </svg>
         </div>
       </div>
-      <h1 style="font-size: 48px; text-align: center; font-weight: 500px;">Fireploy App</h1>
-      <div style="display: flex; justify-content: center; margin-top: 20px;"><button id="navigation" style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255); border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 16px;" onclick="window.location.href='{{ url('/last') }}'">Inicia tu viaje en Fireploy</button></div>
+       <h1 style="font-size: 48px; text-align: center; font-weight: 500px;">Fireploy App</h1>
+      <h2 style="text-align: center;">Time to work! 😎</h2>
     </div>
-    <script src="/resources/js/app.js"></script>
+    <script src="/js/index.js"></script>
   </body>
 </html>

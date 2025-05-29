@@ -6,7 +6,6 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, process.cwd(), '');
 
     return {
-        base: `/${env.APP_BASE_PATH ?? ''}/`,
         plugins: [
             laravel({
                 input: ['resources/css/app.css', 'resources/js/app.js'],
